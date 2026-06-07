@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Luxury Scents - Parfums de luxe</title>
+    <!-- Google Fonts & Swiper JS -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Font Awesome 6 (gratuit) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <a class="logo-home" href="parfum.html">LUXURY SCENTS</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Nouvel Arrivage</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Parfum <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="parfum-h.html">Parfum Homme</a>
+                    <a href="parfum-f.html">Parfum Femme</a>
+                    <a href="#">Parfum Unisex</a>
+                </div>
+            </li>
+            <li><a href="#">Marques</a></li>
+            <li><a href="#">Parfum en promo</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>L'EXCELLENCE OLFACTIVE</h1>
+        <p>Parfums de luxe · Paiement à la livraison</p>
+    </div>
+</section>
+
+<!-- SLIDER MARQUES -->
+<div class="brands-slider-wrapper">
+    <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">CHANEL</div>
+            <div class="swiper-slide">DIOR</div>
+            <div class="swiper-slide">TOM FORD</div>
+            <div class="swiper-slide">CREED</div>
+            <div class="swiper-slide">GUERLAIN</div>
+            <div class="swiper-slide">KILIAN</div>
+            <div class="swiper-slide">BYREDO</div>
+            <div class="swiper-slide">AMOUAGE</div>
+        </div>
+    </div>
+</div>
+
+<!-- ========== SECTION NOUVEAUTÉS (INDÉPENDANTE) ========== -->
+<div class="nouveautes-section">
+    <div class="container">
+        <h2 class="section-title">Nouvel Arrivage</h2>
+        <div class="nouveautes-grid" id="nouveautes-grid"></div>
+    </div>
+</div>
+
+<!-- ========== SECTION PROMOS (INDÉPENDANTE) ========== -->
+<div class="promos-section">
+    <div class="container">
+        <h2 class="section-title">Parfum en promo</h2>
+        <div class="promos-grid" id="promos-grid"></div>
+    </div>
+</div>
+
+<!-- CARROUSEL TÉMOIGNAGES -->
+<div class="testimonials-section">
+    <div class="container">
+        <h2 class="section-title">Ce que nos clients disent</h2>
+        <div class="swiper testimonial-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="testimonial-text">"Une fragrance divine, livrée en 24h et payée à la réception. Un service royal."</div>
+                    <div class="testimonial-name">— Victoire L.</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="testimonial-text">"L'élégance du site reflète la qualité des parfums. Je recommande Noir Absolu."</div>
+                    <div class="testimonial-name">— Hadrien M.</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="stars">★★★★★</div>
+                    <div class="testimonial-text">"Enfin un site de niche avec paiement à la livraison. Flacon magnifique."</div>
+                    <div class="testimonial-name">— Sofia R.</div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<!-- BANNIÈRE LIVRAISON -->
+<div class="delivery-banner">
+    <div class="delivery-item">
+        <i class="fas fa-truck-fast"></i>
+        <h4>Livraison express 24h</h4>
+        <p>Partout au Maroc</p>
+    </div>
+    <div class="delivery-item">
+        <i class="fas fa-hand-holding-usd"></i>
+        <h4>Paiement à la livraison</h4>
+        <p>Payez à la réception</p>
+    </div>
+    <div class="delivery-item">
+        <i class="fas fa-gem"></i>
+        <h4>Emballage cadeau offert</h4>
+        <p>Pour toute commande</p>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-col">
+            <h4>Nos collections</h4>
+            <ul>
+                <li>Parfum Homme</li>
+                <li>Parfum Femme</li>
+                <li>Parfum Unisex</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Termes & services</h4>
+            <ul>
+                <li><a href="./cgv.html">CGV</a></li>
+                <li><a href="termes.html">Termes et conditions</a></li>
+                <li><a href="retour.html">Retour</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Nous contacter</h4>
+            <p><i class="fas fa-envelope"></i> contact@luxuryscents.com</p>
+            <p><i class="fas fa-phone"></i> +212 7 71 10 18 86</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/212771101886" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">© 2025 Luxury Scents — Parfums de luxe · Paiement à la livraison</div>
+</footer>
+
+<!-- MODAL -->
+<div id="productModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 id="modalTitle">Parfum</h2>
+        <img id="modalImg" src="" alt="">
+        <p id="modalDesc"></p>
+        <p><strong>Notes :</strong> Cuir, Ambre, Vétiver (exemple)</p>
+        <h3 id="modalPrice"></h3>
+        <button class="btn-detail" style="background:#C6A43F; color:black; margin-top: 20px;">Commander - Paiement à la livraison</button>
+        <p style="font-size: 12px; margin-top: 10px;">Remplissez vos coordonnées à l'étape suivante (simulation)</p>
+    </div>
+</div>
+
+<script>
+    // BASE DE DONNÉES DES 10 PARFUMS
+    const perfumes = [
+        { id:1, name:"Noir Absolu", gender:"H", description:"Boisé intense, cuir et cèdre", price:"1890 DHs", promo:false, img:"https://lkadoo.ma/wp-content/uploads/2023/02/noir-absolu-matiere-noir-louis-vuitton.jpg", notes:"boisé, ambre, cuir" },
+        { id:2, name:"Fleur d'Or", gender:"F", description:"Jasmin, tubéreuse, musc blanc", price:"2150 DHs", promo:true, img:"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400&auto=format", notes:"jasmin, tubéreuse, musc" },
+        { id:3, name:"Ambre Royal", gender:"U", description:"Vanille, oud, santal", price:"2450 DHs", promo:false, img:"https://www.fatin.ma/wp-content/uploads/2023/11/Jardin_boheme_ambre_royal_2.webp", notes:"vanille, oud, santal" },
+        { id:4, name:"Oud Ébène", gender:"H", description:"Cuir, épices, oud", price:"2790 DHs", promo:false, img:"https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&auto=format", notes:"cuir, épices, oud" },
+        { id:5, name:"Rosée de Lune", gender:"F", description:"Rose, patchouli, praline", price:"1980 DHs", promo:false, img:"https://www.aeliadutyfree.fr/media/catalog/product/3/4/3473311980014_6ddb.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=934&width=934&canvas=934:934", notes:"rose, patchouli, praline" },
+        { id:6, name:"Sable Noir", gender:"U", description:"Santal, musc, encens", price:"2320 DHs", promo:true, img:"https://osenteursparfums.com/wp-content/uploads/2021/09/p2.jpg", notes:"santal, musc, encens" },
+        { id:7, name:"Platinum Luxe", gender:"H", description:"Iris, vétiver, poivre", price:"2590 DHs", promo:false, img:"https://images.unsplash.com/photo-1594035910385-fb4772a20c6e?w=400&auto=format", notes:"iris, vétiver, poivre" },
+        { id:8, name:"Carmen Fatale", gender:"F", description:"Cerise noire, tabac, vanille", price:"2050 DHs", promo:false, img:"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400&auto=format", notes:"cerise, tabac, vanille" },
+        { id:9, name:"Ombre Sacrée", gender:"U", description:"Encens, ciste, bois sec", price:"2990 DHs", promo:false, img:"https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=400&auto=format", notes:"encens, ciste, bois sec" },
+        { id:10, name:"Crystal Gold", gender:"F", description:"Fleur d'oranger, miel, benjoin", price:"2380 DHs", promo:true, img:"https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&auto=format", notes:"fleur d'oranger, miel, benjoin" }
+    ];
+
+    // RENDER NOUVEAUTÉS (indépendant)
+    function renderNouveautes() {
+        const nouveautes = perfumes.filter(p => [1,3,5].includes(p.id));
+        const container = document.getElementById('nouveautes-grid');
+        
+        container.innerHTML = '';
+        nouveautes.forEach(p => {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            card.innerHTML = `
+                <img src="${p.img}" alt="${p.name}" loading="lazy">
+                <h3>${p.name}</h3>
+                <div class="description">${p.description}</div>
+                <div class="price">${p.price}</div>
+                <button class="btn-detail" data-id="${p.id}">Voir détails</button>
+            `;
+            card.querySelector('.btn-detail').addEventListener('click', () => openModal(p));
+            container.appendChild(card);
+        });
+    }
+
+    // RENDER PROMOS (indépendant)
+    function renderPromos() {
+        const promos = perfumes.filter(p => p.promo === true);
+        const container = document.getElementById('promos-grid');
+        
+        container.innerHTML = '';
+        promos.forEach(p => {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            card.innerHTML = `
+                <img src="${p.img}" alt="${p.name}" loading="lazy">
+                <h3>${p.name}</h3>
+                <div class="description">${p.description}</div>
+                <div class="price">${p.price}</div>
+                <button class="btn-detail" data-id="${p.id}">Voir détails</button>
+            `;
+            card.querySelector('.btn-detail').addEventListener('click', () => openModal(p));
+            container.appendChild(card);
+        });
+    }
+    
+    function openModal(perfume) {
+        const modal = document.getElementById('productModal');
+        document.getElementById('modalTitle').innerText = perfume.name;
+        document.getElementById('modalImg').src = perfume.img;
+        document.getElementById('modalDesc').innerText = perfume.description + " · " + (perfume.notes || "Fragrance complexe et raffinée");
+        document.getElementById('modalPrice').innerHTML = perfume.price;
+        modal.style.display = 'flex';
+    }
+    
+    // Fermeture modal
+    document.querySelector('.close-modal').addEventListener('click', () => {
+        document.getElementById('productModal').style.display = 'none';
+    });
+    
+    window.onclick = function(e) {
+        const modal = document.getElementById('productModal');
+        if(e.target === modal) modal.style.display = 'none';
+    }
+    
+    // SLIDERS
+    document.addEventListener('DOMContentLoaded', function() {
+        renderNouveautes();
+        renderPromos();
+        
+        new Swiper('.brand-slider', {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: { delay: 800, disableOnInteraction: false },
+            speed: 800,
+            breakpoints: { 640: { slidesPerView: 4 }, 1024: { slidesPerView: 6 } }
+        });
+        
+        new Swiper('.testimonial-slider', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: { delay: 4000 },
+            pagination: { el: '.swiper-pagination', clickable: true },
+            breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+        });
+    });
+</script>
+</body>
+</html>
